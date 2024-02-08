@@ -1,0 +1,77 @@
+/* Set styles for the container */
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    /* Center the container horizontally */
+}
+
+/* Style the card */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 0 auto;
+    /* Center the card within the container */
+}
+
+/* Style the sub-cards within the main card */
+.subcardone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles for the input fields */
+.inputcontainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inputcontainer label {
+    margin-right: 10px;
+}
+
+/* Style the button tab */
+.buttontab {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.buttontab button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttontab button:hover {
+    background-color: #388e3c;
+    /* Darker green on hover */
+}
+
+/* Style for the Back button */
+.buttontab button.back {
+    background-color: #f44336;
+    /* Red */
+}
+
+.buttontab button.back:hover {
+    background-color: #d32f2f;
+    /* Darker red on hover */
+}
+
+/* Additional styles for custom input container */
+.custominput {
+    margin-right: 10px;
+}
+
+.space {
+    padding-left: 20px;
+}

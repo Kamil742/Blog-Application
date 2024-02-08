@@ -1,0 +1,27 @@
+.chooseFile {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    color: var(--text);
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+
+}
+
+.upload {
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+
+}

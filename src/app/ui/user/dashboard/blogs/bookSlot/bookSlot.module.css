@@ -1,0 +1,81 @@
+
+
+/* Set styles for the container */
+.container {
+    max-width: 800px;
+    margin: 80px;
+    margin-left: 450px;
+}
+
+/* Style the card */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+/* Style the slot links */
+.slotlink {
+    background-color:  #66c2ff;;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    /* Adjust margin as needed */
+}
+
+.slotlink:hover {
+    background-color: azure;
+}
+
+/* Style the sub-cards within the main card */
+.slotcard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Style the button tab */
+.buttontab {
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+/* Style the buttons within the button tab */
+.buttontab button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the links within the buttons */
+.buttontab button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the buttons with different background colors */
+.buttontab button:nth-child(1) {
+    background-color: green;
+}
+
+.buttontab button:nth-child(1):hover {
+    background-color: green;
+}
+
+.buttontab button:nth-child(2) {
+    background-color: #f44336;
+}
+
+.buttontab button:nth-child(2):hover {
+    background-color: green;
+}

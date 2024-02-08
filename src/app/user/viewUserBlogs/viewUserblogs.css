@@ -1,0 +1,52 @@
+
+
+
+
+
+.blogcards{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.data{
+    width: 60%;
+    background: grey;
+    display: flex;
+    height: 150px;
+    border-radius: 10px 10px;
+}
+
+.image{
+    width: 20%;
+}
+.bloginfo{
+    padding: 20px;
+    width: 80%;
+    background: yellow;
+    color: red;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+}
+.viewButton{
+   color: white;
+   background-color: blue;
+}
+.deleteButton{
+   color: white;
+   background-color: rgb(247, 36, 36);
+}
